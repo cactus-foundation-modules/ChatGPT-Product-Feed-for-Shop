@@ -1,0 +1,31 @@
+{
+  "name": "chatgpt-product-feed-for-shop",
+  "version": "0.1.0",
+  "tablePrefix": "cpf_",
+  "description": "Puts your shop in front of ChatGPT. Serves a product feed in the format OpenAI's merchant tools ask for, in which every variation is its own product - its own price, photos, stock and link - grouped under its listing, so someone asking ChatGPT for the exact size and colour finds the exact size and colour you sell. Give ChatGPT the address once; the feed is built fresh from the shop every time it is collected, so it never disagrees with your prices. Anything that would be turned away - no photo, no brand - is held back and listed for you to fix.",
+  "requiresCoreVersion": "0.5.1904",
+  "requiresModules": [
+    {
+      "name": "shop",
+      "minVersion": "0.1.528"
+    },
+    {
+      "name": "shop-variations",
+      "minVersion": "0.1.208"
+    }
+  ],
+  "permissions": [],
+  "navEntries": [],
+  "settingsTabs": [
+    {
+      "id": "chatgpt-product-feeds",
+      "label": "ChatGPT product feeds",
+      "permission": "shop.manage",
+      "import": "./components/SettingsTab",
+      "component": "ChatGptProductFeedSettingsTab"
+    }
+  ],
+  "teardown": [
+    "cpf_settings"
+  ]
+}

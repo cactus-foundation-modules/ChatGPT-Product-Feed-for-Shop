@@ -1,0 +1,6 @@
+{
+  "name": "cactus-module-chatgpt-product-feed-for-shop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ChatGPT (OpenAI commerce) product feed for the Cactus shop module."
+}
