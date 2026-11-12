@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="module-art.webp" alt="ChatGPT Product Feed for Shop" width="640" />
+</p>
+
 # ChatGPT Product Feed for Shop
 
 A [Cactus](https://github.com/usersaynoso/cactus-foundation) module that serves a product feed for ChatGPT, in the format OpenAI's merchant tools ask for ([product file specification](https://developers.openai.com/commerce/specs/file-upload/products)).
